@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../imgs/black-brick-wall-textured-background.jpg");
+    background-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: #00E608;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 30px;
+}
+
+.change-theme {
+   background-color: #126FB3;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+main{
+    background-color: #000000;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    color: #00E608;
+    border: 2px solid #00E608;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.button {
+    background-color: #000000;
+    border-radius: 20px;
+    color: #00E608;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #00E608;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    border: 2px solid #03f89e;
+    color: #03f89e;
+}
+
+.theme-withe {
+    background-image: url("../imgs/v996-008.jpg");
+    color: #000000;
+}
+
+.withe-header {
+    background-color: #126FB3;
+}
+
+.withe {
+    background-color: #ffff;
+    border: 2px solid #126FB3;
+    color: #126FB3;
+}
+
+.change-color{
+    background-color: #00E608;
+    color: #000000;
+}
+
+@media only screen and (max-width: 610px){
+    main {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    h1 {
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+}
+
+
+
