@@ -1,6 +1,6 @@
 # Gerador de conselhos
 
-Gerador de conselhos usando a APi "Advice Slip JSON API" 
+Gerador de conselhos usando a APi "Advice Slip JSON API" <br>
 
 ## Stack usada 
 <div align="left">
@@ -14,6 +14,4 @@ Gerador de conselhos usando a APi "Advice Slip JSON API"
 
 O projeto está no GitHub pages. [Visualizar](https://lucaskaiquee.github.io/Gerador_de_conselhos/)
 
-## Demostração 
-
->[video](./imgs/2022-10-03%2017-31-25.gif).
+![2022-10-03 17-31-25](https://user-images.githubusercontent.com/85175643/193684505-5a57dc42-4bcb-47cc-be0f-7239bdcf07f1.gif)
