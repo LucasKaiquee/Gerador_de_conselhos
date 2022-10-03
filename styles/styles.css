@@ -57,6 +57,7 @@ p {
 .button {
     background-color: #000000;
     border-radius: 20px;
+    font-size: 20px;
     color: #00E608;
     width: 200px;
     height: 40px;
