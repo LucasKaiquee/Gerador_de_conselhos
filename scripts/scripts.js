@@ -13,7 +13,7 @@ function newAdvice() {
     createAdvice(json.slip.advice);
   });
 
-  button.innerText = 'Pedir outro'
+  button.innerText = 'Outro'
 }
 
 button.addEventListener('click', newAdvice);
